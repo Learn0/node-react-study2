@@ -53,7 +53,7 @@ function Detail(props)
          const script = document.createElement("script");
          script.async = true;
          script.src =
-             "https://dapi.kakao.com/v2/maps/sdk.js?appkey=cd60f0d60f8ebf56777090aefd9990eb&libraries=services";
+             "https://dapi.kakao.com/v2/maps/sdk.js?appkey=676eb5fa2637b234997b24dd7566e9ba&libraries=services";
          document.head.appendChild(script);
          script.onload = () => {
              kakao.maps.load(() => {
